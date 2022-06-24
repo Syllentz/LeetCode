@@ -1,11 +1,14 @@
 using LeetCode;
 using static LeetCode.LinkListExample;
 using static LeetCode.Tools.NodeList;
+using static LeetCode.LeetCodeWork.LongestSubstring;
+using LeetCode.LeetCodeWork;
 
 namespace TestProject
 {
     public class UnitTest1
     {
+        /*
         [Fact]
         public void LinkListExample()
         {
@@ -17,6 +20,7 @@ namespace TestProject
             Console.WriteLine("The two numbers are: {0}", result.val);
             Console.ReadLine();
         }
+        */
         [Fact]
         public void TwoSumTest()
         {
@@ -26,6 +30,15 @@ namespace TestProject
             int[] nums = createArray.CreateArray(numEntries, 10);
             int[] results = TwoSumExample.TwoSum(nums, target);
             Console.WriteLine("The two numbers are: {0},{1}", results[0], results[1]);
+            Console.ReadLine();
+        }
+        [Fact]
+        public void LongestSubstringTest()
+        {
+            LongestSubstring longestSubstring = new LongestSubstring(); 
+            string s = "abcabcbb";
+            int target = longestSubstring.LengthOfLongestSubstring(s);
+            Console.WriteLine(target);
             Console.ReadLine();
         }
     }

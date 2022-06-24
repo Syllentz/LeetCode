@@ -8,15 +8,22 @@ namespace LeetCode.Tools
 {
     public class NodeList
     {
+        /*
+        internal class SingleLinkedList
+        {
+            internal ListNode head;
+        }
+        
         public class ListNode
         {
             public int val;
             public ListNode next;
-            public ListNode(int val = 0, ListNode next = null)
+            public ListNode(int val = 0, L
+                this.val = val;istNode next = null)
             {
-                this.val = val;
                 this.next = next;
             }
         }
+        */
     }
 }
