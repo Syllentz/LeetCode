@@ -8,6 +8,7 @@ namespace LeetCode.LeetCodeWork
 {
     public class LongestSubstring
     {
+        /*
         public static void Main()
         {
             LongestSubstring longestSubstring = new LongestSubstring();
@@ -16,6 +17,7 @@ namespace LeetCode.LeetCodeWork
             Console.WriteLine(target);
             Console.ReadLine();
         }
+
         public int LengthOfLongestSubstring(string s)
         {
             List<string> list = new List<string>();
@@ -35,5 +37,6 @@ namespace LeetCode.LeetCodeWork
             }
             return longest;
         }
+        */
     }
 }

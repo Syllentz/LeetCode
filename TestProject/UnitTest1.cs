@@ -35,11 +35,53 @@ namespace TestProject
         [Fact]
         public void LongestSubstringTest()
         {
-            LongestSubstring longestSubstring = new LongestSubstring(); 
-            string s = "abcabcbb";
-            int target = longestSubstring.LengthOfLongestSubstring(s);
-            Console.WriteLine(target);
-            Console.ReadLine();
+            //LongestSubstring longestSubstring = new LongestSubstring(); 
+            //string s = "abcabcbb";
+            //int target = longestSubstring.LengthOfLongestSubstring(s);
+            //Console.WriteLine(target);
+            //Console.ReadLine();
+        }
+
+        [Fact]
+        public void PalindromeTest()
+        {
+            PalindromeNumbers palindromeNumbers = new PalindromeNumbers();
+            int n = 1123567;
+            bool isPal = palindromeNumbers.IsPalindrome(n);
+            Console.WriteLine(isPal);
+            //Console.ReadLine();
+            n = 123454321;
+            isPal = palindromeNumbers.IsPalindrome(n);
+            Console.WriteLine(isPal);
+            //Console.ReadLine();
+            n = 12344321;
+            isPal = palindromeNumbers.IsPalindrome(n);
+            Console.WriteLine(isPal);
+            //Console.ReadLine();
+        }
+        [Fact]
+        public void RomanToIntTest()
+        {
+            RomanToInteger romanToInteger = new RomanToInteger();
+            string s = "III";
+            int r = romanToInteger.RomanToInt(s);
+
+            s = "LVIII";
+            r = romanToInteger.RomanToInt(s);
+
+            s = "MCMXCIV";
+            r = romanToInteger.RomanToInt(s);
+            Console.WriteLine(r);
+        }
+        [Fact]
+        public void LongestPrefix()
+        {
+            LongestCommonPrefixL longestCommonPrefixL = new LongestCommonPrefixL();
+            string[] s = { "flower", "flow", "flight" };
+            string result = longestCommonPrefixL.LongestCommonPrefix(s);
+            s = new string[] {"dog","racecar","car"};
+            result = longestCommonPrefixL.LongestCommonPrefix(s);
+            Console.WriteLine(result);
         }
     }
 }
