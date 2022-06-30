@@ -83,5 +83,18 @@ namespace TestProject
             result = longestCommonPrefixL.LongestCommonPrefix(s);
             Console.WriteLine(result);
         }
+        [Fact]
+        public void OpenClosePara()
+        {
+            ValidParentheses validParentheses = new ValidParentheses();
+            string s;
+            s = "()";
+            bool isV = validParentheses.IsValid(s);
+            s = "()[]{}";
+            isV = validParentheses.IsValid(s);
+            s = "(]";
+            isV = validParentheses.IsValid(s);
+            Console.WriteLine(s);
+        }
     }
 }

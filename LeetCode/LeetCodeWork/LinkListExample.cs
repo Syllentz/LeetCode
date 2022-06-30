@@ -9,10 +9,6 @@ namespace LeetCode
 {
     public class LinkListExample
     {       
-        static void main()
-        {
-
-        }
         /*
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
