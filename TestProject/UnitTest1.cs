@@ -3,6 +3,7 @@ using static LeetCode.LinkListExample;
 using static LeetCode.Tools.NodeList;
 using static LeetCode.LeetCodeWork.LongestSubstring;
 using LeetCode.LeetCodeWork;
+using LeetCode.Tools;
 
 namespace TestProject
 {
@@ -95,6 +96,14 @@ namespace TestProject
             s = "(]";
             isV = validParentheses.IsValid(s);
             Console.WriteLine(s);
+        }
+        [Fact]
+        public void RecursionFactorialExample()
+        {
+            int i = 10;
+            FactorialRecursion factorialRecursion = new FactorialRecursion();
+            int result = factorialRecursion.Factorial(i);
+            Console.WriteLine(result);
         }
     }
 }

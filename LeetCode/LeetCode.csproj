@@ -70,10 +70,12 @@
     <Compile Include="LeetCodeWork\PalindromeNumbers.cs" />
     <Compile Include="LeetCodeWork\RomanToInteger.cs" />
     <Compile Include="LeetCodeWork\ValidParentheses.cs" />
+    <Compile Include="Tools\FactorialRecursion.cs" />
     <Compile Include="Tools\NodeList.cs" />
     <Compile Include="Tools\NumberGen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeWork\TwoSumExample.cs" />
+    <Compile Include="Tools\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
