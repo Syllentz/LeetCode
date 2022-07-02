@@ -8,6 +8,8 @@ namespace LeetCode.Tools
 {
     public class NodeList
     {
+        BinaryTree node = null;
+        
         /*
         internal class SingleLinkedList
         {

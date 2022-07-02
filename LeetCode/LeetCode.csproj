@@ -75,7 +75,7 @@
     <Compile Include="Tools\NumberGen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LeetCodeWork\TwoSumExample.cs" />
-    <Compile Include="Tools\TreeNode.cs" />
+    <Compile Include="Tools\BinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
