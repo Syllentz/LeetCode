@@ -69,7 +69,10 @@
     <Compile Include="LeetCodeWork\LongestSubstring.cs" />
     <Compile Include="LeetCodeWork\PalindromeNumbers.cs" />
     <Compile Include="LeetCodeWork\RomanToInteger.cs" />
+    <Compile Include="LeetCodeWork\LCstrStr.cs" />
+    <Compile Include="LeetCodeWork\SumOfLeaves.cs" />
     <Compile Include="LeetCodeWork\ValidParentheses.cs" />
+    <Compile Include="Tools\TreeNode.cs" />
     <Compile Include="Tools\FactorialRecursion.cs" />
     <Compile Include="Tools\NodeList.cs" />
     <Compile Include="Tools\NumberGen.cs" />

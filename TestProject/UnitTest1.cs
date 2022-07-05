@@ -105,5 +105,21 @@ namespace TestProject
             int result = factorialRecursion.Factorial(i);
             Console.WriteLine(result);
         }
+        [Fact]
+        public void RunLeftSumTreeNode()
+        {
+            SumOfLeaves sumOfLeaves = new SumOfLeaves();
+            
+            TreeNode root = new TreeNode(3)
+            {
+                left = new TreeNode(9),
+                right = new TreeNode(20)
+            };
+            root.right.left = new TreeNode(15);
+            root.right.right = new TreeNode(7);
+            
+            //TreeNode root = new TreeNode(1,new TreeNode(2));
+            int result = sumOfLeaves.SumOfLeftLeaves(root);
+        }
     }
 }
